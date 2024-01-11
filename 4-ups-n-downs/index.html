@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#4 Ups n Downs</title>
+    <style>
+        body{margin:0; background-color:#62306D;}
+        .main{
+          display:flex;
+          width:100vw;
+          height:100vh;
+          align-items:center;
+          justify-content:center;
+          
+        }
+        .item{
+          width: 100px;
+          height: 200px;
+          background: #F7EC7D;
+        }
+      
+        .corte-up{
+          height:100px;
+          margin-bottom: 100px;
+          border-radius:50px 50px 0 0;
+        }
+      
+        .corte-down{
+          height:100px;
+          margin-top: 100px;
+          border-radius:0 0 50px 50px;
+        }
+      </style>
+</head>
+<body>
+    <div class='main'>
+        <div class='item corte-down'></div>
+        <div class='item corte-up'></div>
+        <div class='item corte-down'></div>
+    </div>
+</body>
+</html>
