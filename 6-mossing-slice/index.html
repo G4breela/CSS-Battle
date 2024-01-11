@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6# Missing Slice</title>
+    <style>
+        *{
+          position:relative;
+        }
+        body{
+          margin:0;
+          background: #E3516E;
+        }
+        div[a]{
+          top:50px;
+          left:100px;
+          width: 100px;
+          height: 100px;
+          background: #51B5A9;
+          border-radius: 100% 0 0 0;
+        }
+        div[b]{
+          left:100px;
+          width: 100px;
+          height: 100px;
+          background: #FADE8B;
+          border-radius: 0 100% 0 0 ;
+        }
+        div[c]{
+          top:100px;
+          left: -100px;
+          width: 100px;
+          height: 100px;
+          background: #F7F3D7;
+          border-radius: 0 0 0 100% ;
+        }
+      </style>
+</head>
+<body>
+    <div a><div b><div c></div>
+</body>
+</html>
