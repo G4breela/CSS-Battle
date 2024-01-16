@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16-01-24</title>
+        <style>
+            *{
+              margin: 0px;
+              padding:0px;
+              box-sizing: border-box;
+            }
+            
+            body {
+              display: flex;
+              justify-content: center;
+              align-items:center;
+              width: 100%;
+              height: 100%;
+              background: #002A6B;
+            }
+
+            div{
+                margin-top: 100px;
+            }
+          
+            div[a]{
+              position:relative;
+              top:24px;
+              width: 120px;
+              height: 100px;
+              background-color:#C7E7FB;
+            }
+          
+            div[b]{
+              position:relative;
+              top:40px;
+              left:-30px;
+              width: 0;
+              height: 0;
+              border-left: 90px solid transparent;
+              border-right: 90px solid transparent;
+              border-bottom: 90px solid #002A6B;
+            }
+          
+            div[c]{
+              position:relative;
+              top:-120px;
+              left:-120px;
+              width: 0;
+              height: 0;
+              border-left: 120px solid transparent;
+              border-right: 120px solid transparent;
+              border-bottom: 120px solid #5CC4F4;
+            }
+          
+            div[d]{
+              position:relative;
+              top:30px;
+              left:-90px;
+              width: 0;
+              height: 0;
+              transform:rotate(180deg);
+              border-left: 90px solid transparent;
+              border-right: 90px solid transparent;
+              border-bottom: 90px solid #C7E7FB;
+            }
+          
+            .blue{
+              position:relative;
+              top:90px;
+              left: -40px;
+              width:80px;
+              height:50px;
+              background:#002A6B;
+            }
+          
+            
+          </style>
+</head>
+<body>
+    <div>
+        <div a><div b><div c><div d><div class='blue'>    
+    </div>
+</body>
+</html>
